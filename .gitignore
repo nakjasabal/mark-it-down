@@ -1,0 +1,43 @@
+# 가상환경
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# 변환 결과물
+convert-works/target-md/
+
+# 환경 변수
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 테스트 / 커버리지
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# 임시 파일
+*.log
+*.tmp
+*.bak
